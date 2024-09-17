@@ -1,5 +1,5 @@
 "use strict"; // treat all JS code as newer version
-
+2
 // alert(3 + 3) // we are using node js, not browser
 
 console.log(3 + 3); 
@@ -10,7 +10,7 @@ let age = 20
 let isLoggedIn = false // for boolean
 
 let char = 'p'
-let asciiValue = char.charCodeAt(0)
+let asciiValue = char.charCodeAt(0) // charcodeat(index) is used to know the ascii value at any goven index
 
 console.table([username, age, asciiValue])
 console.table([username, age, char.charCodeAt(0)])
@@ -24,7 +24,7 @@ console.table([username, age, char.charCodeAt(0)])
 // symbol => used mostly in react, figma. used for uniqueness
 
 // Object
-console.log(typeof null) // output => object
+console.log(typeof null) // output => object ;  // typeof function is used to know the type of any arguments;
 console.log(typeof undefined); // output => undefined
 
 
