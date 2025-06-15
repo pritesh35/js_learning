@@ -22,9 +22,9 @@ app.get('/login', (req, res) => {
   res.send('hey this is login page bruh')
 })
 
-// app.listen(process.env.PORT, () => {
-//   console.log(`hello, your application is running port : ${process.env.PORT}`)
-// })
-export default function handler(req, res) {
-  res.status(200).json({ message: "Hello from serverless backend!" });
-}
+app.listen(process.env.PORT, () => {
+  console.log(`hello, your application is running port : ${process.env.PORT}`)
+})
+// export default function handler(req, res) {
+//   res.status(200).json({ message: "Hello from serverless backend!" });
+// }
