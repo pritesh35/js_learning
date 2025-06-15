@@ -25,3 +25,6 @@ app.get('/login', (req, res) => {
 // app.listen(process.env.PORT, () => {
 //   console.log(`hello, your application is running port : ${process.env.PORT}`)
 // })
+export default function handler(req, res) {
+  res.status(200).json({ message: "Hello from serverless backend!" });
+}
