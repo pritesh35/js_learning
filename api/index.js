@@ -22,6 +22,6 @@ app.get('/login', (req, res) => {
   res.send('hey this is login page bruh')
 })
 
-app.listen(process.env.PORT, () => {
-  console.log(`hello, your application is running port : ${process.env.PORT}`)
-})
+// app.listen(process.env.PORT, () => {
+//   console.log(`hello, your application is running port : ${process.env.PORT}`)
+// })
